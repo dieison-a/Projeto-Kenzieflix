@@ -1,0 +1,109 @@
+body {
+    background-color: #000000;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.container {
+    max-width: 718px;
+    margin: 0 auto;
+}
+/* MAIN */
+.logoInicial {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 7.5% 0;
+}
+.avataresUsuarios {
+    width: 100%;
+}
+.chamadaUsuario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+}
+.chamadaUsuario h1 {
+    font-size: 32px;
+    color: #ffffff;
+}
+/* USUÁRIOS */
+.usuarios {
+    display: flex;
+    width: 100%;
+}
+.listaUsuarios {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.listaUsuarios li {
+    display: flex;
+    min-width: 160px;
+}
+
+.itemUsuario {
+    display: flex;
+}
+
+.iconeUsuario {
+    max-width: 160px;
+    max-height: 160px;
+    margin: 0;
+    overflow: hidden;
+    border: 1.5px solid transparent;
+    border-radius: 8px;
+}
+.iconeUsuario a img {
+    width: 100%;
+    border-radius: 8px;
+    transition: all 0.3s;
+    box-sizing: border-box;
+}
+.iconeUsuario:hover {
+    border: 1.5px solid #ffffff;
+}
+img:hover {
+    transform: scale(1.2);
+}
+.iconeUsuario a img#addUser {
+    opacity: 0.5;
+}
+.iconeUsuario a:hover img#addUser {
+    opacity: 1;
+}
+.iconeUsuario legend {
+    width: 150px;
+    font-size: 14px;
+    color: #9C9C9C;
+    padding: 0;
+    margin: 10px 0;
+    position: absolute;
+}
+/* GERENCIAR PERFIS */
+.gerenciarPerfis {
+    display: flex;
+    justify-content: center;
+    margin: 20% 0 0;
+}
+.buttonGerenciar {
+    width: 200px;
+    height: 50px;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    color: #9C9C9C;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.buttonGerenciar:hover {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+}

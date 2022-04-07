@@ -69,7 +69,7 @@ body {
 .iconeUsuario:hover {
     border: 1.5px solid #ffffff;
 }
-img:hover {
+.iconeUsuario img:hover {
     transform: scale(1.2);
 }
 .iconeUsuario a img#addUser {
